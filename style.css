@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box ;
+  }
+  
+  header>h1{
+    margin-top: 0px ;
+    margin-bottom: 15px ;
+  }
+  
+  header>h3{
+    position: relative;
+    bottom: 10px ;
+  }
+  
+  header {
+    background-color:slategray ;
+    text-align: center ;
+    font-family: monospace ; 
+    padding-bottom: 0px ;
+    padding-top: 10px ;
+  }
+  
+  
+  html {
+    background-color: wheat ;
+    font-family: monospace ;
+  }
+  
+  img {
+    border-radius: 2% ;
+  }
+  
+  body{
+    text-align: center ;
+    margin: 0px ;
+  }
+  
+  footer{
+    background-color: slategray ;
+    height: 50px ;
+    text-align: center ;
+  }
+  
+  footer>p {
+    padding-top: 17px ;
+  }
+  
+  .align-center {
+    text-align: center ;
+  }
+  
+  div {
+    width: 100% ;
+    padding: auto ;
+  }
+  
+  .div2, .div3 {
+    text-align: center ;
+  }
+  
+  .div2, .div3, ul, ol {
+    display: inline-block ;
+  }
+  
+  ul {
+    text-align: left
+  }
+  
+  /* This is the code I wrote initially before figuring out how to properly align the ul and ol lists.
+  
+  ul {
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 10px;
+    text-align: center;
+    margin: auto;
+  }
+  
+   ol{
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 10px;
+    text-align: center;
+    margin: auto; 
+  } */
+  
+  hr {
+    height: 2px ;
+    border: black, solid, 2px ;
+    background-color: black ;
+    margin-top: 65px ;
+    margin-bottom: 65px ;
+    width: 85% ;
+  }
