@@ -33,6 +33,7 @@
   body{
     text-align: center ;
     margin: 0px ;
+    font-size: 16px ;
   }
   
   footer{
@@ -91,4 +92,17 @@
     margin-top: 65px ;
     margin-bottom: 65px ;
     width: 85% ;
+  }
+
+  a:link {
+    color: blue ;
+  }
+  a:visited {
+    color: purple ;
+  }
+  a:hover {
+    color: green
+  }
+  a:active {
+    color: red ;
   }
