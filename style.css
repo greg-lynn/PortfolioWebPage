@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box ;
   }
-  
+  /*The next 3 selectors are used to determine the properties of the header, including: spacing, color, font-family, etc.*/
   header>h1{
     margin-top: 0px ;
     margin-bottom: 15px ;
@@ -20,16 +20,16 @@
     padding-top: 10px ;
   }
   
-  
+  /*Determine the properties of the HTML page, including: background color, font-family, etc.*/
   html {
     background-color: wheat ;
     font-family: monospace ;
   }
-  
+  /*Specify the roundness of the embedded photo*/
   img {
     border-radius: 2% ;
   }
-  
+  /*This is where you set the properties of the body of the HTML*/
   body{
     text-align: center ;
     margin: 0px ;
@@ -41,7 +41,7 @@
     height: 50px ;
     text-align: center ;
   }
-  
+  /*This is where I had to add padding to the footer in order to ensure the text was perfectly centered*/
   footer>p {
     padding-top: 17px ;
   }
@@ -49,7 +49,7 @@
   .align-center {
     text-align: center ;
   }
-  
+  /*The start of formatting the lists*/
   div {
     width: 100% ;
     padding: auto ;
@@ -66,25 +66,7 @@
   ul {
     text-align: left
   }
-  
-  /* This is the code I wrote initially before figuring out how to properly align the ul and ol lists.
-  
-  ul {
-    list-style-position: inside;
-    padding-left: 0;
-    margin: 10px;
-    text-align: center;
-    margin: auto;
-  }
-  
-   ol{
-    list-style-position: inside;
-    padding-left: 0;
-    margin: 10px;
-    text-align: center;
-    margin: auto; 
-  } */
-  
+  /*The end of the formatting of my ordered and unordered lists*/
   hr {
     height: 2px ;
     border: black, solid, 2px ;
@@ -93,7 +75,7 @@
     margin-bottom: 65px ;
     width: 85% ;
   }
-
+/*Selectors to style the links I provided in the contact section*/
   a:link {
     color: blue ;
   }
